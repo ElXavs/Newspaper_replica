@@ -41,10 +41,15 @@
   margin: 2px auto;
 }
 .header .metaData p {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
 }
 .header .metaData strong {
   font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
 }
 .header .metaData span {
   margin: auto 0.5%;
@@ -58,7 +63,10 @@
   position: relative;
 }
 .header .lastText p {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.1rem;
 }
 .header .lastText .t1 {
   grid-column: 1/3;
@@ -67,6 +75,8 @@
   grid-column: 2/3;
   position: absolute;
   z-index: 3;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
 }
 .header .bottomLine {
   margin: 0 auto;
@@ -80,11 +90,13 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 0.95fr 0.8fr 1fr 1.3fr;
-  grid-template-rows: 230px 1px 450px 50px 95px 345px 75px;
+  grid-template-rows: 230px 1px 450px 50px 110px 345px 75px;
   grid-gap: 1%;
   background: #fff;
 }
 .main span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   color: #f00;
 }
 .article1 {
@@ -103,13 +115,16 @@
 }
 .article1 .text h2 span {
   font-size: 4.5rem;
+  font-family: none;
 }
 .article1 .text p {
   width: 100%;
   font-size: 1.6rem;
+  color: rgba(0,0,0,0.7);
 }
 .article1 .text p span {
   font-size: 1.4rem;
+  font-family: none;
 }
 .article1 img {
   position: relative;
@@ -143,6 +158,9 @@
 }
 .article3 h3 {
   font-size: 3.5vh;
+  font-weight: 900;
+  line-height: 90%;
+  margin-bottom: 4%;
 }
 .article3 p {
   font-size: 1.4vh;
@@ -171,19 +189,26 @@
   flex-direction: column;
 }
 .article4__text h3 {
+  margin-top: 2%;
   color: #f00;
   font-weight: 900;
   font-size: 1.7vh;
+  font-family: 'Roboto', sans-serif;
 }
 .article4__text h2 {
-  font-size: 2.2vh;
+  font-size: 2.5vh;
   font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  line-height: 90%;
 }
 .article4__text p {
+  margin-top: 2%;
   font-size: 1.5vh;
   font-weight: 600;
+  font-family: 'Roboto', sans-serif;
 }
 .article4__text span {
+  margin-top: 2%;
   align-self: flex-end;
   font-weight: bold;
   font-size: 1.8vh;
@@ -228,6 +253,7 @@
   text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 0.5px 0.5px #fff, -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -0.5px 0.5px 0 #fff;
 }
 .article6__container--text h3 {
+  font-family: 'Roboto', sans-serif;
   font-size: 2.5vh;
   width: 30%;
   text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 0.5px 0.5px #fff, -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -0.5px 0.5px 0 #fff;
@@ -252,16 +278,22 @@
   height: 35%;
 }
 .article7 .text h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   padding-top: 7%;
   font-size: 6vh;
   line-height: 80%;
 }
 .article7 .text h2 {
-  font-size: 2.5vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 2.8vh;
 }
 .article7 .text p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
   margin-top: 5%;
-  font-size: 1.8vh;
+  font-size: 1.95vh;
 }
 .article7 .text p strong {
   font-size: inherit;
@@ -292,6 +324,10 @@
   font-size: 1.8vh;
   padding-right: 1%;
 }
+.article8 .text strong {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+}
 .article8 .text p {
   font-size: 1.2rem;
 }
@@ -309,10 +345,16 @@
 .article8 .imgSection img {
   width: 100%;
 }
+.article8 .imgSection strong {
+  font-family: 'Oswald', sans-serif;
+}
 .article8 .imgSection p {
-  font-size: 1.1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 .article8 .imgSection span {
+  font-weight: 200;
   color: rgba(0,0,0,0.8);
 }
 .article9 {
