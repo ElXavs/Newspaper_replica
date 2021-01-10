@@ -122,6 +122,7 @@
   }
   .header .lastText .t2 strong {
     margin-left: -4px;
+    font-size: 1rem;
   }
   .header .bottomLine {
     margin: 0 auto;
