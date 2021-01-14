@@ -7,7 +7,7 @@
   width: 98%;
   margin: 0 auto;
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1252px) {
   .container {
     width: 1250px;
   }
@@ -89,15 +89,60 @@
   background: #000;
   height: 1.3rem;
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 423px) {
+  .header .title .image1 {
+    width: 15%;
+    height: 100%;
+  }
+  .header .title .image2 {
+    width: 100%;
+  }
+  .header .metaData p {
+    font-size: 2.2vw;
+  }
+  .header .metaData strong {
+    font-size: 2.5vw;
+  }
+  .header .lastText p {
+    font-size: 2.2vw;
+  }
+  .header .lastText .t2 strong {
+    font-size: 2.4vw;
+  }
+}
+@media screen and (min-width: 760px) {
   .header .title {
     flex-direction: row;
   }
   .header .title .image1 {
-    height: 130px;
-    margin-right: 5%;
+    width: 10%;
+    height: 100%;
     margin-bottom: 0;
+    margin-right: 5%;
   }
+  .header .title .image2 {
+    width: 85%;
+  }
+  .header .metaData p {
+    font-size: 1.8vw;
+  }
+  .header .metaData strong {
+    font-size: 2vw;
+  }
+  .header .lastText p {
+    font-size: 1.5vw;
+  }
+  .header .lastText .t2 strong {
+    font-size: 1.6vw;
+  }
+  .header .bottomLine {
+    margin: 0 auto;
+    width: 100%;
+    background: #000;
+    height: 1.3rem;
+  }
+}
+@media screen and (min-width: 1024px) {
   .header .metaData p {
     font-size: 1.5rem;
   }
@@ -459,32 +504,32 @@
     grid-row: 3/4;
   }
   .article3 h3 {
-    font-size: 3.5vh;
+    font-size: 2.5rem;
   }
   .article3 p {
-    font-size: 1.4vh;
+    font-size: 1.06rem;
   }
   .article3 p span {
-    font-size: 1.4vh;
+    font-size: 1.06rem;
   }
   .article3 p strong {
-    font-size: 1.4vh;
+    font-size: 1.06rem;
   }
   .article4 {
     grid-column: 1/2;
     grid-row: 4/6;
   }
   .article4__text h3 {
-    font-size: 1.7vh;
+    font-size: 1.2rem;
   }
   .article4__text h2 {
-    font-size: 2.5vh;
+    font-size: 1.7rem;
   }
   .article4__text p {
-    font-size: 1.5vh;
+    font-size: 1rem;
   }
   .article4__text span {
-    font-size: 1.8vh;
+    font-size: 1.2rem;
   }
   .article5 {
     grid-column: 1/2;
@@ -511,20 +556,24 @@
     height: 100%;
   }
   .article6__container--text {
+    height: 95%;
     z-index: 3;
     position: absolute;
     bottom: 5%;
     left: 1%;
-    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .article6__container--text h1 {
-    font-size: 9vh;
+    font-size: 6.5rem;
     width: 70%;
   }
   .article6__container--text h3 {
     text-align: left;
-    font-size: 2.5vh;
+    font-size: 1.5rem;
     width: 26%;
+    line-height: 2rem;
   }
   .article6__container--text h3 span {
     font-size: 2.5vh;
@@ -534,13 +583,13 @@
     grid-row: 5/8;
   }
   .article7 .text h1 {
-    font-size: 6vh;
+    font-size: 4rem;
   }
   .article7 .text h2 {
-    font-size: 2.8vh;
+    font-size: 2.1rem;
   }
   .article7 .text p {
-    font-size: 1.95vh;
+    font-size: 1.25rem;
   }
   .article8 {
     grid-column: 3/5;
@@ -557,7 +606,7 @@
   .article8 h1 {
     grid-column: 1/3;
     grid-row: 1/2;
-    font-size: 6.5vh;
+    font-size: 4.5rem;
     margin-bottom: 0;
   }
   .article8 .text {
